@@ -1,0 +1,3 @@
+[submodule "kmod-r8168"]
+	path = kmod-r8168
+	url = git@github.com:BROBIRD/openwrt-r8168.git
