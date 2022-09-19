@@ -1,3 +1,6 @@
 [submodule "kmod-r8168"]
 	path = kmod-r8168
 	url = git@github.com:BROBIRD/openwrt-r8168.git
+[submodule "luci-theme-argon"]
+	path = luci-theme-argon
+	url = git@github.com:jerrykuku/luci-theme-argon.git
