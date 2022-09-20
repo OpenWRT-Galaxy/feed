@@ -30,7 +30,7 @@ src/gz openwrt_galaxy https://openwrt-galaxy.nekoneko.today/releases/22.03.0/pac
 ### LuCI app
 
 ### command line app
-
+- speedtest
 ### driver
 - kmod-r8168
 
