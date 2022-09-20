@@ -16,12 +16,16 @@ opkg-key add key-build.pub
 rm key-build.pub
 ```
 
-2. add source. in LuCI: system - software - configure opkg
+2. add source. in LuCI: system - software - configure opkg  
 at the end of /etc/opkg/customfeeds.conf:
+### x86_64
 ```bash
 src/gz openwrt_galaxy https://openwrt-galaxy.nekoneko.today/releases/22.03.0/packages/x86_64/galaxy
 ```
-
+### mt7620
+```bash
+src/gz openwrt_galaxy https://openwrt-galaxy.nekoneko.today/releases/22.03.0/packages/mipsel_24kc/galaxy
+```
 3. update lists.
 
 ## Collected Packages
