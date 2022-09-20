@@ -4,7 +4,7 @@ PKG_NAME:=speedtest
 PKG_VERSION:=1.2.0
 PKG_RELEASE:=1
 PKG_LICENSE:=https://www.speedtest.net/about/eula
-PKG_SOURCE:=ookla-speedtest-$(PKG_VERSION)-x86_64-linux.tgz
+PKG_SOURCE:=ookla-speedtest-$(PKG_VERSION)-linux-x86_64.tgz
 PKG_SOURCE_URL:=https://install.speedtest.net/app/cli/
 PKG_HASH:=35e084567a6388631fb10cf01e5e0d6b57a67d34ede2b72ba111b3d9164c8b94
 
