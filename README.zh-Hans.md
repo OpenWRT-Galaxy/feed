@@ -13,24 +13,14 @@ OpenWRT 的三方软件包仓库
 
 ## 使用方法
 
-1. 导入我们的签名公钥，在 ssh 里执行
 ```bash
-wget https://openwrt-galaxy.nekoneko.today/key-build.pub
-opkg-key add key-build.pub
-rm key-build.pub
+wget -O - https://openwrt-galaxy.nekoneko.today/install.sh | sh
+opkg update
 ```
-
-2. 添加源，在网页里 系统 - 软件包 - 配置 opkg
-/etc/opkg/customfeeds.conf 最后面添加
-```bash
-src/gz openwrt_galaxy https://openwrt-galaxy.nekoneko.today/releases/22.03.0/packages/x86_64/galaxy
-```
-
-3. 更新列表，之后就能搜到想要的软件了
 
 ## 有哪些软件包
 ### LuCI 主题
-- luci-theme-argon
+- luci-theme-argon (& luci-app-argon-config)
 
 ### LuCI 应用
 

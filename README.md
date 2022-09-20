@@ -9,28 +9,14 @@ install your favorite package on official openwrt release.
 
 ## Usage
 
-1. load our signing pubkey, in ssh:
 ```bash
-wget https://openwrt-galaxy.nekoneko.today/key-build.pub
-opkg-key add key-build.pub
-rm key-build.pub
+wget -O - https://openwrt-galaxy.nekoneko.today/install.sh | sh
+opkg update
 ```
-
-2. add source. in LuCI: system - software - configure opkg  
-at the end of /etc/opkg/customfeeds.conf:
-### x86_64
-```bash
-src/gz openwrt_galaxy https://openwrt-galaxy.nekoneko.today/releases/22.03.0/packages/x86_64/galaxy
-```
-### mt7620
-```bash
-src/gz openwrt_galaxy https://openwrt-galaxy.nekoneko.today/releases/22.03.0/packages/mipsel_24kc/galaxy
-```
-3. update lists.
 
 ## Collected Packages
 ### LuCI theme
-- luci-theme-argon
+- luci-theme-argon (& luci-app-argon-config)
 ### LuCI app
 
 ### command line app
@@ -38,7 +24,7 @@ src/gz openwrt_galaxy https://openwrt-galaxy.nekoneko.today/releases/22.03.0/pac
 ### driver
 - kmod-r8168
 
-## Supported Platforms
+## Platforms
 on start, we only support x86_64
 all official supported hardware will be supported.
 and maybe some extra popular hardware.
