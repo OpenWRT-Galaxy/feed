@@ -7,6 +7,3 @@
 [submodule "luci-app-argon-config"]
 	path = luci-app-argon-config
 	url = https://github.com/jerrykuku/luci-app-argon-config.git
-[submodule "luci-theme-netgear"]
-	path = luci-theme-netgear
-	url = https://github.com/ysoyipek/luci-theme-netgear.git
