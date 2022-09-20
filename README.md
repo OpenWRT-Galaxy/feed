@@ -2,7 +2,7 @@
 
 third-party software repository for OpenWRT
 
-be stable, no more compile. 
+be stable, no more compile.  
 install your favorite package on official openwrt release.
 
 *Read this in other languages: [English](README.md), [简体中文](README.zh-Hans.md).*
