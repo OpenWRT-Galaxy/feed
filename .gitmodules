@@ -59,3 +59,31 @@
 	path = luci-app-zerotier
 	url = https://github.com/rufengsuixing/luci-app-zerotier.git
 	shallow = true
+[submodule "ddns-scripts_aliyun"]
+	path = ddns-scripts_aliyun
+	url = https://github.com/sensec/ddns-scripts_aliyun.git
+	shallow = true
+[submodule "luci-app-diskman"]
+	path = luci-app-diskman
+	url = https://github.com/lisaac/luci-app-diskman.git
+	shallow = true
+[submodule "luci-app-go-aliyundrive-webdav"]
+	path = luci-app-go-aliyundrive-webdav
+	url = https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav.git
+	shallow = true
+[submodule "luci-app-rclone"]
+	path = luci-app-rclone
+	url = https://github.com/immortalwrt/Rclone-OpenWrt.git
+	shallow = true
+[submodule "luci-app-pushbot"]
+	path = luci-app-pushbot
+	url = https://github.com/zzsj0928/luci-app-pushbot.git
+	shallow = true
+[submodule "vlmscd"]
+	path = vlmscd
+	url = https://github.com/cokebar/openwrt-vlmcsd.git
+	shallow = true
+[submodule "luci-app-jd-dailybonus"]
+	path = luci-app-jd-dailybonus
+	url = https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+	shallow = true
