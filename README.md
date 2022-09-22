@@ -18,7 +18,7 @@ opkg update
 ### LuCI theme
 - luci-theme-argon (& luci-app-argon-config)
 ### LuCI app
-
+- luci-app-openclash
 ### command line app
 - speedtest
 ### driver

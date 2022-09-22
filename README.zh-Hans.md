@@ -21,9 +21,8 @@ opkg update
 ## 有哪些软件包
 ### LuCI 主题
 - luci-theme-argon (& luci-app-argon-config)
-
 ### LuCI 应用
-
+- luci-app-openclash
 ### 命令行应用
 - speedtest
 ### 驱动
