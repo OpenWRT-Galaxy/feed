@@ -35,3 +35,27 @@
 	url = https://github.com/xiaorouji/openwrt-passwall.git
 	branch = luci
 	shallow = true
+[submodule "luci-app-adbyby-plus"]
+	path = luci-app-adbyby-plus
+	url = https://github.com/deplives/luci-app-adbyby-plus.git
+	shallow = true
+[submodule "luci-app-filetransfer"]
+	path = luci-app-filetransfer
+	url = https://github.com/f8q8/luci-app-filetransfer.git
+	shallow = true
+[submodule "luci-app-ssr-plus"]
+	path = luci-app-ssr-plus
+	url = https://github.com/maxlicheng/luci-app-ssr-plus.git
+	shallow = true
+[submodule "luci-app-unblockneteasemusic"]
+	path = luci-app-unblockneteasemusic
+	url = https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
+	shallow = true
+[submodule "luci-app-vlmcsd"]
+	path = luci-app-vlmcsd
+	url = https://github.com/cokebar/luci-app-vlmcsd.git
+	shallow = true
+[submodule "luci-app-zerotier"]
+	path = luci-app-zerotier
+	url = https://github.com/rufengsuixing/luci-app-zerotier.git
+	shallow = true
