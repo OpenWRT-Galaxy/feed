@@ -22,25 +22,9 @@
 	path = luci-app-vssr
 	url = https://github.com/jerrykuku/luci-app-vssr.git
 	shallow = true
-[submodule "openwrt-trojan"]
-	path = openwrt-trojan
-	url = https://github.com/trojan-gfw/openwrt-trojan
-	shallow = true
-[submodule "openwrt-simple-obfs"]
-	path = openwrt-simple-obfs
-	url = https://github.com/aa65535/openwrt-simple-obfs.git
-	shallow = true
-[submodule "openwrt-shadowsocksr"]
-	path = openwrt-shadowsocksr
-	url = https://github.com/honwen/openwrt-shadowsocksr.git
-	shallow = true
 [submodule "luci-app-shadowsocksr"]
 	path = luci-app-shadowsocksr
 	url = https://github.com/honwen/luci-app-shadowsocksr.git
-	shallow = true
-[submodule "openwrt-v2ray-plugin"]
-	path = openwrt-v2ray-plugin
-	url = https://github.com/honwen/openwrt-v2ray-plugin.git
 	shallow = true
 [submodule "luci-app-xray"]
 	path = luci-app-xray
