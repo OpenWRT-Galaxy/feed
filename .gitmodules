@@ -87,3 +87,6 @@
 	path = luci-app-jd-dailybonus
 	url = https://github.com/jerrykuku/luci-app-jd-dailybonus.git
 	shallow = true
+[submodule "go-aliyundrive-webdav"]
+	path = go-aliyundrive-webdav
+	url = https://github.com/LinkLeong/go-aliyundrive-webdav.git
