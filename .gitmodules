@@ -103,3 +103,15 @@
 	path = v2ray-geodata
 	url = https://github.com/sbwml/v2ray-geodata.git
 	shallow = true
+[submodule "luci-app-wizard"]
+	path = luci-app-wizard
+	url = https://github.com/kiddin9/luci-app-wizard.git
+	shallow = true
+[submodule "luci-theme-edge"]
+	path = luci-theme-edge
+	url = https://github.com/kiddin9/luci-theme-edge.git
+	shallow = true
+[submodule "luci-app-dnsfilter"]
+	path = luci-app-dnsfilter
+	url = https://github.com/kiddin9/luci-app-dnsfilter.git
+	shallow = true
