@@ -115,3 +115,7 @@
 	path = luci-app-dnsfilter
 	url = https://github.com/kiddin9/luci-app-dnsfilter.git
 	shallow = true
+[submodule "luci-app-passwall2"]
+	path = luci-app-passwall2
+	url = https://github.com/xiaorouji/openwrt-passwall2.git
+	shallow = true
