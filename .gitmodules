@@ -126,3 +126,6 @@
 [submodule "luci-app-socatg"]
 	path = luci-app-socatg
 	url = https://github.com/big-tooth/luci-app-socatg.git
+[submodule "luci-app-transmission"]
+	path = luci-app-transmission
+	url = https://github.com/monokoo/luci-app-transmission.git
