@@ -123,3 +123,6 @@
 	path = luci-app-socat
 	url = https://github.com/4IceG/luci-app-socat.git
 	shallow = true
+[submodule "luci-app-socatg"]
+	path = luci-app-socatg
+	url = https://github.com/big-tooth/luci-app-socatg.git
